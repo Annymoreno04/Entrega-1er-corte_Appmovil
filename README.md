@@ -1,20 +1,39 @@
-# Expo Router Example
+# Entrega 1 – Desarrollo de Aplicaciones Móviles
+Este proyecto corresponde al trabajo del **primer corte** de la asignatura **Desarrollo de aplicaciones móviles**, realizado por **Anny Johana Moreno Leudo**.
+## 📌 Descripción
+Aplicación móvil desarrollada con **Expo** utilizando **React Native** y **Expo Router** para gestionar la navegación basada en el sistema de archivos. El propósito es demostrar conceptos fundamentales de estructura de rutas, despliegue multiplataforma y buenas prácticas en una app móvil.
+## 🛠️ Tecnologías
+- **JavaScript** como lenguaje principal  
+- **Expo** como framework de desarrollo  
+- **React Native** para la construcción de interfaces móviles  
+- **Expo Router** para navegación basada en archivos  
+- **EAS (Expo Application Services)** para despliegue en Web, iOS y Android  
+## 🚀 Instalación y ejecución
+1. Clonar el repositorio:
+    ```bash
+    git clone https://github.com/Annymoreno04/Entrega-1er-corte_Appmovil.git
+    cd Entrega-1er-corte_Appmovil
+2. Instalar dependencias:
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+    bash
+    Copiar código
+    npm install
+3. Ejecutar en modo desarrollo:
 
-## 🚀 How to use
+    bash
+    Copiar código
+    npx expo start
+4. 📂 Estructura del proyecto
+    csharp
+    Copiar código
+    Entrega-1er-corte_Appmovil/
+    ├── app/                # Rutas y pantallas de la aplicación
+    ├── assets/             # Recursos estáticos (imágenes, iconos, etc.)
+    ├── app.json            # Configuración de Expo
+    ├── index.js            # Punto de entrada de la app
+    ├── package.json        # Dependencias y scripts
+    └── package-lock.json   # Versiones exactas de dependencias
 
-```sh
-npx create-expo-app -e with-router
-```
-
-## Deploy
-
-Deploy on all platforms with Expo Application Services (EAS).
-
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+5. 👩‍💻 Autor
+    Anny Johana Moreno Leudo
+    Asignatura: Desarrollo de aplicaciones móviles – Primer corte
